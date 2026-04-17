@@ -117,7 +117,7 @@ button {
 @media (min-width: 850px) {
   main {
     flex-direction: row;
-    max-height: 420px;
+    max-height: 400px;
   }
 
   .container{
