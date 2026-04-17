@@ -57,26 +57,21 @@ main {
     display: flex;
   flex-direction: column;
 
-  overflow: auto;
+ 
  width: 100%;       /* Full width on mobile */
   max-width: 700px;  /* Stops growing at 700px on desktop */
   border-radius: 10px;
-   
+  overflow: hidden;
 } 
 
 img {
   width: 100%;
   height: auto;
   min-height:100%;
-   overflow: hidden;
+  
 }
 
-picture {
-width:100%;
-height:auto;
- overflow: hidden;
 
-}
 
 
 #text {
