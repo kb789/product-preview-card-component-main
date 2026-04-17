@@ -1,0 +1,139 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+ 
+ 
+  letter-spacing: 8px;
+ font-size: .75rem;
+  color: hsl(228, 12%, 48%);
+}
+
+h1 {
+   color: hwb(212 11% 83%);
+   font-size: 2.25rem;
+    font-weight: extra-bold;
+    line-height: 1;
+}
+ 
+
+  
+
+.container {
+font-family: 'Fraunces', serif;
+  background-color: hsl(30, 38%, 92%);
+ 
+  color: hsl(228, 12%, 48%);
+ padding: .75rem;
+ min-height: 100vh;
+ width:100%;
+font-size:1rem;
+display: flex;           /* Turns the container into a flexbox */
+  justify-content: center; /* Centers 'main' horizontally */
+
+}
+
+#new {
+  text-decoration: line-through;
+ color: hsl(228, 12%, 48%);
+  
+  margin-left: 1rem;
+  align-self: center;
+  padding-left: 1rem;
+}
+#current {
+ font-size: 2.5rem;
+  color: hsl(158, 36%, 37%);
+  font-weight: extra-bold;
+}
+main {
+ 
+   background-color: white;
+    display: flex;
+  flex-direction: column;
+ 
+ width: 100%;       /* Full width on mobile */
+  max-width: 700px;  /* Stops growing at 700px on desktop */
+  border-radius: 10px;
+  overflow: hidden;   
+} 
+
+img {
+  width: 100%;
+  height: auto;
+  min-height:100%;
+   overflow: hidden;
+}
+
+picture {
+width:100%;
+height:auto;
+ overflow: hidden;
+
+}
+
+
+#text {
+ display:flex;
+    flex-direction: column;
+   
+     padding: 3em 2em;
+     gap: 1em;
+
+}
+
+p { line-height: 2; }
+
+
+#prices {
+ 
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+ 
+  cursor: pointer;
+  width:100%;
+  font-weight: bold;
+  margin-top: 2rem;
+
+  letter-spacing: 1px;
+ 
+}
+
+
+.btn-icon { width: 20px; height: 20px; vertical-align: middle; margin-right: 12px; }
+/* This changes the layout for screens wider than 48em */
+@media (min-width: 850px) {
+  main {
+    flex-direction: row;
+   
+  }
+
+  .container{
+     align-items: center;
+  }
+
+  picture {
+width:50%;
+
+  }
+  #text {
+    width:50%;
+  
+  
+  }
+}
