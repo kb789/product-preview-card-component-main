@@ -38,7 +38,7 @@ display: flex;           /* Turns the container into a flexbox */
 
 }
 
-#new {
+#original {
   text-decoration: line-through;
  color: hsl(228, 12%, 48%);
   
@@ -46,7 +46,7 @@ display: flex;           /* Turns the container into a flexbox */
   align-self: center;
   
 }
-#current {
+#sale {
  font-size: 1.5rem;
   color: hsl(158, 36%, 37%);
   font-weight: extra-bold;
@@ -117,7 +117,7 @@ button {
 @media (min-width: 850px) {
   main {
     flex-direction: row;
-    max-height: 440px;
+    max-height: 460px;
   }
 
   .container{
