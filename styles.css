@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-h2 {
+#heading1 {
   font-family: 'Montserrat', sans-serif;
  
  
@@ -13,10 +13,10 @@ h2 {
   color: hsl(228, 12%, 48%);
 }
 
-h1 {
+#heading2 {
    color: hwb(212 11% 83%);
-   font-size: 2.25rem;
-    font-weight: extra-bold;
+   font-size: 2.5rem;
+    font-weight: bolder;
     line-height: 1;
 }
  
@@ -26,10 +26,11 @@ h1 {
 .container {
 font-family: 'Fraunces', serif;
   background-color: hsl(30, 38%, 92%);
- 
+
   color: hsl(228, 12%, 48%);
- padding: .75rem;
+ padding: 2rem;
  min-height: 100vh;
+ 
  width:100%;
 font-size:1rem;
 display: flex;           /* Turns the container into a flexbox */
@@ -43,7 +44,7 @@ display: flex;           /* Turns the container into a flexbox */
   
   margin-left: 1rem;
   align-self: center;
-  padding-left: 1rem;
+  
 }
 #current {
  font-size: 2.5rem;
@@ -51,15 +52,16 @@ display: flex;           /* Turns the container into a flexbox */
   font-weight: extra-bold;
 }
 main {
- 
+  height: auto;
    background-color: white;
     display: flex;
   flex-direction: column;
- 
+
+  
  width: 100%;       /* Full width on mobile */
   max-width: 700px;  /* Stops growing at 700px on desktop */
   border-radius: 10px;
-  overflow: hidden;   
+   
 } 
 
 img {
@@ -120,11 +122,12 @@ button {
 @media (min-width: 850px) {
   main {
     flex-direction: row;
-   
+    max-height: 750px;
   }
 
   .container{
      align-items: center;
+     
   }
 
   picture {
