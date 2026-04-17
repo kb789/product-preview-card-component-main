@@ -57,7 +57,7 @@ main {
     display: flex;
   flex-direction: column;
 
-  overflow: hidden;
+  overflow: auto;
  width: 100%;       /* Full width on mobile */
   max-width: 700px;  /* Stops growing at 700px on desktop */
   border-radius: 10px;
