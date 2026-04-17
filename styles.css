@@ -57,7 +57,7 @@ main {
     display: flex;
   flex-direction: column;
 
-  
+  overflow: hidden;
  width: 100%;       /* Full width on mobile */
   max-width: 700px;  /* Stops growing at 700px on desktop */
   border-radius: 10px;
@@ -110,7 +110,7 @@ button {
   cursor: pointer;
   width:100%;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: .5rem;
 
   letter-spacing: 1px;
  
@@ -122,7 +122,7 @@ button {
 @media (min-width: 850px) {
   main {
     flex-direction: row;
-    max-height: 750px;
+    max-height: 520px;
   }
 
   .container{
